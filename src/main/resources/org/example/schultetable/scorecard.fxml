@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.schultetable.scorecardController">
+   <children>
+      <Label alignment="CENTER" layoutX="3.0" layoutY="5.0" prefHeight="106.0" prefWidth="992.0" text=" YOUR SCORE" textFill="#0e7910">
+         <font>
+            <Font name="Bernard MT Condensed" size="83.0" />
+         </font>
+      </Label>
+      <Label fx:id="Score" alignment="CENTER" layoutX="13.0" layoutY="175.0" prefHeight="98.0" prefWidth="970.0" text="12" textFill="#810c73">
+         <font>
+            <Font name="Bodoni MT Black" size="76.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="8.0" layoutY="330.0" prefHeight="67.0" prefWidth="480.0" text="Score Feedback " textFill="#631818">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="Scorefeed" contentDisplay="CENTER" layoutX="502.0" layoutY="330.0" prefHeight="67.0" prefWidth="429.0" textFill="#082b06">
+         <font>
+            <Font name="Bookman Old Style" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="playagain" layoutX="50.0" layoutY="576.0" mnemonicParsing="false" onAction="#PlayAgain" prefHeight="66.0" prefWidth="232.0" text="PLAYAGAIN" textFill="#117b14">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="700.0" layoutY="576.0" mnemonicParsing="false" onAction="#exit" prefHeight="66.0" prefWidth="232.0" text="EXIT" textFill="#fa0000">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="gamestop" alignment="CENTER" layoutX="1.0" layoutY="450.0" prefHeight="82.0" prefWidth="1000.0" textFill="#963808">
+         <font>
+            <Font name="Calibri Light Italic" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="375.0" layoutY="576.0" mnemonicParsing="false" onAction="#backhome" prefHeight="66.0" prefWidth="232.0" text="HOME" textFill="#d98208">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.schultetable.gamerulesController">
+   <children>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="-2.0" prefHeight="70.0" prefWidth="988.0" text="GAME RULES" textFill="#1c6a76">
+         <font>
+            <Font name="Berlin Sans FB" size="56.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="2.0" layoutY="59.0" prefHeight="531.0" prefWidth="1000.0" text="                                                                                                     OBJECTIVE&#10;The goal of the Schulte Table game is to find and click on the numbers from 1 to 35 in ascending order as quickly as possible within a 1-minute time   limit.&#10;&#10;                                                                                                     Find the Numbers&#10;1) Locate the number 1 on the grid and click it.&#10;2) After each click, the numbers on the buttons will be shuffled.&#10;3) Continue finding and clicking the numbers in ascending order (1,2, 3, 4, and so on).&#10;&#10;                                                                                                     Shuffling:&#10;&gt; After each correct click, the numbers will be shuffled randomly across the buttons.&#10;&#10;                                                                                                      Time Limit:&#10;&gt; You have 1 minute to find and click as many numbers in sequence as possible.                  &#10;&#10;                                                                                                      Scoring and Feedback:&#10;1) Below Average: If you score between 1 and 10 points.&#10;2) Average: If you score between 11 and 20 points.&#10;3) Expert: If you score 21 points or more.&#10;&#10;                                                                                                       End of Game:&#10;1)The game ends when the 1-minute timer runs out.&#10;2)Your score will be displayed, along with feedback based on your performance.&#10;&#10;                                                                         " wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="6.0" layoutY="636.0" mnemonicParsing="false" onAction="#backtologin" prefHeight="54.0" prefWidth="988.0" text="BACK TO PAGE">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Button>
+      <Circle fill="#ff7f1f" layoutX="430.0" layoutY="75.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff7f1f" layoutX="428.0" layoutY="157.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff7f1f" layoutX="430.0" layoutY="262.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff7f1f" layoutX="431.0" layoutY="326.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff7f1f" layoutX="433.0" layoutY="389.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff7f1f" layoutX="435.0" layoutY="492.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label alignment="CENTER" layoutX="12.0" layoutY="592.0" prefHeight="44.0" prefWidth="978.0" text="Good luck and have fun improving your speed and attention with the Schulte Table game" textFill="#055602">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

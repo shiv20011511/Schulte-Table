@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.schultetable.loginController">
+   <children>
+      <Label alignment="CENTER" layoutY="25.0" prefHeight="88.0" prefWidth="1000.0" text="Hustler's Schulte Table Game" textFill="#14475b">
+         <font>
+            <Font name="Bell MT" size="45.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="5.0" layoutY="131.0" prefHeight="70.0" prefWidth="990.0" text="Developed By - Shivkant Pandey" textFill="#7d0e28">
+         <font>
+            <Font name="Bodoni MT" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="play" layoutX="269.0" layoutY="530.0" mnemonicParsing="false" onAction="#GameArea" prefHeight="62.0" prefWidth="132.0" text="PLAY">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="gr" alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="350.0" mnemonicParsing="false" onAction="#GameRules" prefHeight="52.0" prefWidth="206.0" text="Game Rules">
+         <font>
+            <Font name="Bookman Old Style" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="ah" layoutX="377.0" layoutY="350.0" mnemonicParsing="false" onAction="#Abouthustler" prefHeight="52.0" prefWidth="206.0" text="About Hustler's">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="as" layoutX="684.0" layoutY="350.0" mnemonicParsing="false" onAction="#AboutSchulte" prefHeight="52.0" prefWidth="206.0" text="About Schulte">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="606.0" layoutY="530.0" mnemonicParsing="false" onAction="#exit" prefHeight="62.0" prefWidth="132.0" text="EXIT">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

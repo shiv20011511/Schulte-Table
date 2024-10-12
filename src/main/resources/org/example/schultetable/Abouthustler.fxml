@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.schultetable.abouthustler">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="3.0" prefHeight="82.0" prefWidth="1000.0" text="ABOUT HUSTLER'S" textFill="#220061">
+         <font>
+            <Font name="Bookman Old Style" size="62.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="9.0" layoutY="100.0" prefHeight="521.0" prefWidth="990.0" text="           About the Creator:&#10;&#10;        Shivkant Pandey is an ambitious and driven individual currently pursuing a Master of Computer Applications (MCA) at Amity University Noida. He is passionate about technology and dedicates himself to continuous learning and applying his knowledge to innovative projects. His relentless pursuit of excellence and commitment to honing his skills have earned him the moniker &quot;Hustler.&quot;&#10;&#10;          The Concept:&#10;&#10;       &quot;Hustler's Schulte Table Game&quot; is a testament to Shivkant's dedication and ingenuity. It is a customized version of the classic Schulte table, designed to enhance cognitive abilities such as speed reading, attention, visual perception, and peripheral vision. This game not only reflects his technical prowess but also his innovative spirit and desire to create engaging and educational tools.&#10;&#10;          The Hustler's Spirit:&#10;&#10;       Shivkant embodies the spirit of a hustler—constantly striving to learn, grow, and push the boundaries of what is possible. His Schulte table game is a reflection of this ethos, encouraging users to challenge themselves and continually improve. The game is not just a tool for cognitive enhancement but also an inspiration for others to adopt a hustler's mindset in their own pursuits." wrapText="true">
+         <font>
+            <Font name="Bookman Old Style" size="19.0" />
+         </font>
+      </TextArea>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc1060" height="15.0" layoutX="50.0" layoutY="271.0" stroke="BLACK" strokeType="INSIDE" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cc175f" height="15.0" layoutX="50.0" layoutY="430.0" stroke="BLACK" strokeType="INSIDE" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a40e54" height="15.0" layoutX="50.0" layoutY="108.0" stroke="BLACK" strokeType="INSIDE" width="14.0" />
+      <Button layoutX="9.0" layoutY="633.0" mnemonicParsing="false" onAction="#backtologinAH" prefHeight="59.0" prefWidth="983.0" text="BACK TO PAGE">
+         <font>
+            <Font name="Century" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

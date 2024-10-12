@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.schultetable.GameareaController">
+   <children>
+      <Label fx:id="timerLabel" alignment="CENTER" layoutX="2.0" layoutY="12.0" prefHeight="78.0" prefWidth="992.0" textFill="#a90539">
+         <font>
+            <Font name="Microsoft YaHei UI Light" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="ready" layoutX="241.0" layoutY="544.0" mnemonicParsing="false" onAction="#changeButtonText" prefHeight="67.0" prefWidth="146.0" text="READY" textFill="#37c935">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="Buttonholder" layoutX="221.0" layoutY="152.0" prefHeight="386.0" prefWidth="582.0">
+         <children>
+            <Button fx:id="bt1" layoutX="110.0" layoutY="16.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt2" layoutX="169.0" layoutY="16.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt3" layoutX="227.0" layoutY="16.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt4" layoutX="290.0" layoutY="16.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt5" layoutX="354.0" layoutY="16.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt6" layoutX="418.0" layoutY="16.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt7" layoutX="110.0" layoutY="68.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt13" layoutX="110.0" layoutY="120.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt19" layoutX="109.0" layoutY="170.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt25" layoutX="109.0" layoutY="220.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt31" layoutX="109.0" layoutY="268.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt8" layoutX="169.0" layoutY="68.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt9" layoutX="227.0" layoutY="68.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt10" layoutX="290.0" layoutY="68.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt11" layoutX="354.0" layoutY="68.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt12" layoutX="418.0" layoutY="68.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt14" layoutX="169.0" layoutY="120.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt15" layoutX="227.0" layoutY="120.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt16" layoutX="290.0" layoutY="120.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt17" layoutX="354.0" layoutY="120.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt18" layoutX="418.0" layoutY="120.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt20" layoutX="169.0" layoutY="170.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt21" layoutX="227.0" layoutY="170.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt26" layoutX="169.0" layoutY="220.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt32" layoutX="169.0" layoutY="268.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt27" layoutX="227.0" layoutY="220.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt33" layoutX="227.0" layoutY="268.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt22" layoutX="290.0" layoutY="170.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt28" layoutX="290.0" layoutY="220.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt34" layoutX="290.0" layoutY="268.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt23" layoutX="356.0" layoutY="170.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt24" layoutX="418.0" layoutY="170.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt29" layoutX="356.0" layoutY="220.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt35" layoutX="356.0" layoutY="268.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt30" layoutX="418.0" layoutY="220.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+            <Button fx:id="bt36" layoutX="418.0" layoutY="268.0" mnemonicParsing="false" onAction="#setTextAndColorOnButtons" prefHeight="32.0" prefWidth="35.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="back" layoutX="672.0" layoutY="544.0" mnemonicParsing="false" onAction="#backtomain" prefHeight="67.0" prefWidth="112.0" text="BACK">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
